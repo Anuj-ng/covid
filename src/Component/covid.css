@@ -1,0 +1,60 @@
+body{
+    /* background-color: rgb(30, 51, 133); */
+    font-family: 	'Brush Script MT',
+    'Lucida Handwriting';
+    background-image: url(codioful-formerly-gradienta-LeG68PrXA6Y-unsplash.jpg);
+    background-size:cover
+
+}
+h1,h2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+    background: linear-gradient(170deg, #d1d1d1, #1d3c649e);
+width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 25px;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
